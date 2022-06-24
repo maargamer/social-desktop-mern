@@ -1,0 +1,67 @@
+body {
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+#menu-bar {
+  
+
+  background-color: white;
+    box-shadow: 0.5px 0.866px 2px 0px rgba(0, 0, 0, 0.15);
+  z-index: 3;
+  width: 99%;
+  
+  right: 0%;
+  height: 48px;
+  position: fixed;
+    justify-content: space-between;
+  -webkit-app-region: drag;
+}
+
+
+#right {
+  top:0;
+right: 0%;
+position: fixed;
+  justify-content: space-between;
+
+
+}
+
+.menubar-btn {
+ 
+
+  -webkit-app-region: no-drag;
+}
+   
+::-webkit-scrollbar {
+    display: none;
+
+    }
+.container {
+
+    height: 100%;
+    background: #34475ab0;
+    color: rgb(144, 143, 143);
+    -webkit-app-region: no-drag;
+
+}
+
+button {
+  
+  height: 20%;
+  border: none;
+  background: transparent;
+}
+
+button:hover {
+  background: rgba(221, 221, 221, 0.2);
+}
+
+#close-btn:hover {
+  background: rgb(255, 0, 0);
+}
+
+button i {
+  color: rgb(0, 0, 0);
+}

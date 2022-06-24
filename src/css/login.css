@@ -1,0 +1,8 @@
+.background-video{
+    height: 100%;
+    width: 100%;
+   right: 0%;
+    z-index: -1;
+    position: fixed; /* optional depending on what you want to do in your app */
+    
+    }

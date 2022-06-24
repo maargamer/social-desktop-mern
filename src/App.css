@@ -1,0 +1,35 @@
+
+
+.conaiter{
+  position: relative;
+
+  display: flow-root;
+padding-right: 13%;
+  width:90%;
+  height: auto;
+  max-width: fit-content;
+      -webkit-overflow-scrolling: touch;
+      top: 0;
+      bottom: 10;
+      left: 20%;
+  
+}
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
